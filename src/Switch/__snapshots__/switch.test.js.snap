@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Switch matches default snapshot 1`] = `
+<div
+  className="sc-bdVaJa ePsiZ"
+>
+  <span
+    checked={true}
+    className="ant-switch ant-switch-checked"
+    defaultChecked={false}
+    onChange={[Function]}
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    onMouseUp={[Function]}
+    tabIndex={0}
+  >
+    <span
+      className="ant-switch-inner"
+    />
+  </span>
+</div>
+`;

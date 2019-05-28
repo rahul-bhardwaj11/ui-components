@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropdown matches Button Dropdown snapshot 1`] = `
+<div
+  className="ant-dropdown-trigger"
+  disabled={undefined}
+  onBlur={undefined}
+  onClick={undefined}
+  onContextMenu={undefined}
+  onFocus={undefined}
+  onMouseDown={undefined}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  onTouchStart={undefined}
+>
+   
+  <button
+    className="ant-btn"
+    onClick={[Function]}
+    type="button"
+  >
+    <span>
+      button
+    </span>
+  </button>
+   
+</div>
+`;
+
+exports[`Dropdown matches Link Dropdown snapshot 1`] = `
+<div
+  className="ant-dropdown-trigger"
+  disabled={undefined}
+  onBlur={undefined}
+  onClick={[Function]}
+  onContextMenu={undefined}
+  onFocus={undefined}
+  onMouseDown={[Function]}
+  onMouseEnter={undefined}
+  onMouseLeave={undefined}
+  onTouchStart={[Function]}
+>
+   
+   
+</div>
+`;
+
+exports[`Dropdown matches default snapshot 1`] = `
+<div
+  className="ant-dropdown-trigger"
+  disabled={undefined}
+  onBlur={undefined}
+  onClick={undefined}
+  onContextMenu={undefined}
+  onFocus={undefined}
+  onMouseDown={undefined}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  onTouchStart={undefined}
+>
+   
+   
+</div>
+`;

@@ -1,0 +1,197 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu matches Vertical Menu snapshot 1`] = `
+<div
+  className="sc-bdVaJa edRcnR"
+>
+  <ul
+    className="ant-menu ant-menu-light ant-menu-root ant-menu-vertical"
+    options={
+      Array [
+        Object {
+          "content": "<b>First Item</b>",
+          "key": "1",
+        },
+        Object {
+          "content": "Second Item",
+          "key": "2",
+        },
+        Object {
+          "content": "Third Item",
+          "key": "3",
+        },
+      ]
+    }
+    role="menu"
+    style={Object {}}
+  >
+    <li
+      aria-disabled={undefined}
+      className="ant-menu-item"
+      onBlur={undefined}
+      onClick={[Function]}
+      onContextMenu={undefined}
+      onFocus={undefined}
+      onMouseDown={undefined}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      onTouchStart={undefined}
+      role="menuitem"
+      style={Object {}}
+      title={undefined}
+    >
+      <div
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<b>First Item</b>",
+          }
+        }
+      />
+    </li>
+    <li
+      aria-disabled={undefined}
+      className="ant-menu-item"
+      onBlur={undefined}
+      onClick={[Function]}
+      onContextMenu={undefined}
+      onFocus={undefined}
+      onMouseDown={undefined}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      onTouchStart={undefined}
+      role="menuitem"
+      style={Object {}}
+      title={undefined}
+    >
+      <div
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Second Item",
+          }
+        }
+      />
+    </li>
+    <li
+      aria-disabled={undefined}
+      className="ant-menu-item"
+      onBlur={undefined}
+      onClick={[Function]}
+      onContextMenu={undefined}
+      onFocus={undefined}
+      onMouseDown={undefined}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      onTouchStart={undefined}
+      role="menuitem"
+      style={Object {}}
+      title={undefined}
+    >
+      <div
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Third Item",
+          }
+        }
+      />
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Menu matches default snapshot 1`] = `
+<div
+  className="sc-bdVaJa edRcnR"
+>
+  <ul
+    className="ant-menu ant-menu-light ant-menu-root ant-menu-horizontal"
+    options={
+      Array [
+        Object {
+          "content": "<b>First Item</b>",
+          "key": "1",
+        },
+        Object {
+          "content": "Second Item",
+          "key": "2",
+        },
+        Object {
+          "content": "Third Item",
+          "key": "3",
+        },
+      ]
+    }
+    role="menu"
+    style={Object {}}
+  >
+    <li
+      aria-disabled={undefined}
+      className="ant-menu-item"
+      onBlur={undefined}
+      onClick={[Function]}
+      onContextMenu={undefined}
+      onFocus={undefined}
+      onMouseDown={undefined}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      onTouchStart={undefined}
+      role="menuitem"
+      style={Object {}}
+      title={undefined}
+    >
+      <div
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<b>First Item</b>",
+          }
+        }
+      />
+    </li>
+    <li
+      aria-disabled={undefined}
+      className="ant-menu-item"
+      onBlur={undefined}
+      onClick={[Function]}
+      onContextMenu={undefined}
+      onFocus={undefined}
+      onMouseDown={undefined}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      onTouchStart={undefined}
+      role="menuitem"
+      style={Object {}}
+      title={undefined}
+    >
+      <div
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Second Item",
+          }
+        }
+      />
+    </li>
+    <li
+      aria-disabled={undefined}
+      className="ant-menu-item"
+      onBlur={undefined}
+      onClick={[Function]}
+      onContextMenu={undefined}
+      onFocus={undefined}
+      onMouseDown={undefined}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      onTouchStart={undefined}
+      role="menuitem"
+      style={Object {}}
+      title={undefined}
+    >
+      <div
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Third Item",
+          }
+        }
+      />
+    </li>
+  </ul>
+</div>
+`;

@@ -1,0 +1,68 @@
+@import '../../styles/index.scss';
+
+.videoContainer {
+  position: relative;
+  height: 100%;
+  background-color: #000;
+  .showControls {
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 1s, opacity 1s;
+  }
+  .hideControls {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 1s, opacity 1s;
+  }
+  * {
+    box-sizing: content-box;
+  }
+}
+
+.showControlsOnly {
+  height: 0;
+}
+
+.play {
+  background: url(../../images/play-large.png) no-repeat 0px 0px transparent;
+  top: 40%;
+  left: 44%;
+  width: 76px;
+  height: 76px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.videoControls {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  padding: 0 10px;
+  color: #fff;
+  width: 97%;
+  margin: 0 auto;
+  background: linear-gradient(
+    to bottom,
+    rgba(200, 200, 200, 0),
+    rgba(5, 5, 5, 0.4)
+  );
+}
+
+.videoContainer button {
+  border: 0;
+  padding: 0;
+}
+
+.primaryVideoContainer {
+  width: 100%;
+  .mediaClass {
+    width: 100%;
+    cursor: pointer;
+  }
+}
+
+.fullScreen {
+  height: 100%;
+  width: 100%;
+}

@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckBox matches the snapshot 1`] = `
+<div
+  className="sc-bdVaJa kLXeQe"
+>
+  <label
+    className="ant-checkbox-wrapper"
+    onMouseEnter={undefined}
+    onMouseLeave={undefined}
+    style={undefined}
+  >
+    <span
+      className="ant-checkbox"
+      style={Object {}}
+    >
+      <input
+        autoFocus={undefined}
+        checked={false}
+        className="ant-checkbox-input"
+        disabled={undefined}
+        id={undefined}
+        name={undefined}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        readOnly={undefined}
+        tabIndex={undefined}
+        type="checkbox"
+        value={undefined}
+      />
+      <span
+        className="ant-checkbox-inner"
+      />
+    </span>
+    <span>
+      Checkbox
+    </span>
+  </label>
+</div>
+`;

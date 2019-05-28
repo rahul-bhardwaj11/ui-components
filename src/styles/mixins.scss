@@ -1,0 +1,205 @@
+// button ----------//
+@mixin button {
+  font-size: 14px;
+  height: 32px;
+  font-weight: 600;
+}
+@mixin primaryBtn() {
+  border: 1px solid get('colors.INDIGO');
+  background-color: get('colors.INDIGO');
+}
+@mixin primaryBtnHover() {
+  border: 1px solid get('colors.JODHPUR');
+  background-color: get('colors.JODHPUR');
+}
+@mixin textBtn() {
+  border: 1px dashed transparent;
+  background-color: transparent;
+}
+
+// headings ----------//
+@mixin fontStack(
+  $fontSize: '13px',
+  $fontWeight: '600',
+  $color: 'get("colors.SHARK")',
+  $lineHeight: '18px'
+) {
+  font-size: $fontSize;
+  font-weight: $fontWeight;
+  color: $color;
+  line-height: $lineHeight;
+}
+@mixin h1() {
+  @include fontStack(24px, 600, get('colors.SHARK'), 32px);
+}
+@mixin h2() {
+  @include fontStack(20px, 600, get('colors.SHARK'), 28px);
+}
+@mixin h2Placeholder() {
+  @include fontStack(20px, 600, get('colors.SILVER'), 28px);
+}
+@mixin h3() {
+  @include fontStack(16px, 600, get('colors.SHARK'), 24px);
+}
+@mixin h3Grey() {
+  @include fontStack(16px, 600, get('colors.OUTER_SPACE'), 24px);
+}
+
+// links ----------//
+@mixin actionLink() {
+  @include fontStack(14px, 600, get('colors.INDIGO'), 20px);
+}
+@mixin blackLink() {
+  @include fontStack(14px, 600, get('colors.SHARK'), 20px);
+}
+@mixin greyLink() {
+  @include fontStack(14px, 600, get('colors.OUTER_SPACE'), 20px);
+}
+
+@mixin inactiveLink() {
+  @include fontStack(14px, 600, get('colors.SILVER'), 20px);
+}
+@mixin deleteLink() {
+  @include fontStack(14px, 600, get('colors.BITTERSWEET'), 20px);
+}
+@mixin error() {
+  color: get('colors.BITTERSWEET');
+}
+
+// body text ----------//
+
+@mixin whiteText() {
+  @include fontStack(12px, normal, get('colors.WHITE'), 16px);
+}
+
+@mixin whiteBoldText() {
+  @include fontStack(14px, 600, get('colors.WHITE'), 20px);
+}
+
+@mixin blackText() {
+  @include fontStack(14px, normal, get('colors.SHARK'), 20px);
+}
+@mixin darkText() {
+  @include fontStack(14px, normal, get('colors.DARK_OUTER_SPACE'), 20px);
+}
+@mixin darkSmText() {
+  @include fontStack(14px, 600, get('colors.DARK_OUTER_SPACE'), 20px);
+}
+@mixin greyText() {
+  @include fontStack(14px, normal, get('colors.OUTER_SPACE'), 20px);
+}
+@mixin placeholderText() {
+  @include fontStack(14px, normal, get('colors.SILVER'), 20px);
+}
+
+// small links ----------//
+@mixin smallBlackLink() {
+  @include fontStack(12px, normal, get('colors.SHARK'), 16px);
+}
+@mixin smallDarkLink() {
+  @include fontStack(12px, normal, get('colors.DARK_OUTER_SPACE'), 16px);
+}
+@mixin smallGreyLink() {
+  @include fontStack(12px, normal, get('colors.OUTER_SPACE'), 16px);
+}
+@mixin smallInactiveLink() {
+  @include fontStack(12px, normal, get('colors.SILVER'), 16px);
+}
+@mixin smallActiveLink() {
+  @include fontStack(12px, normal, get('colors.INDIGO'), 16px);
+}
+
+// labels ----------//
+@mixin smallBlackText() {
+  @include fontStack(11px, 600, get('colors.OUTER_SPACE'), 16px);
+  text-transform: uppercase;
+}
+
+// number ----------//
+
+@mixin bigNumber() {
+  @include fontStack(24px, bold, get('colors.SHARK'), 32px);
+}
+@mixin mediumNumber() {
+  @include fontStack(20px, bold, get('colors.SHARK'), 28px);
+}
+@mixin smallNumber() {
+  @include fontStack(20px, bold, get('colors.DARK_OUTER_SPACE'), 28px);
+}
+@mixin smallestNumber() {
+  @include fontStack(13px, normal, get('colors.DARK_OUTER_SPACE'), 20px);
+}
+
+// z-index ----------//
+
+$z-index: (
+  GET_SUPPORT: 99999,
+  TOAST: 9999,
+  LOADER: 9990,
+  OVERLAY: 9980,
+  CONFIRM_BOX: 9970,
+  MODAL: 9960,
+  MODAL_WRAPPER: 9912,
+  MODAL_MASK: 9911,
+  TOOLTIP: 9950,
+  POPOVER: 9940
+);
+
+@function z-index($key) {
+  @return map-get($z-index, $key);
+}
+
+@mixin z-index($key) {
+  z-index: z-index($key);
+}
+
+// z-index scss end here----------//
+
+@mixin displayIB {
+  display: inline-block;
+  vertical-align: middle;
+}
+@mixin displayTableCell {
+  display: table-cell;
+  vertical-align: middle;
+}
+@function calc-percent($target, $container) {
+  @return ($target / $container) * 100%;
+}
+
+@mixin clearfix {
+  &:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}
+@mixin centerDiv {
+  top: 50%;
+  left: 50%;
+  bottom: auto;
+  right: auto;
+  transform: translate(-50%, -50%);
+}
+
+@mixin size($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+@mixin square($size) {
+  @include size($size, $size);
+}
+
+@mixin opacity($opacity: 0.5) {
+  filter: alpha(opacity=$opacity * 100);
+  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=#{$opacity*100});
+  opacity: $opacity;
+}
+
+@mixin truncate($maxWidth) {
+  max-width: $maxWidth;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

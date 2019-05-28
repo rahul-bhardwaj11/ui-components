@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GroupButtonDropdown matches default snapshot 1`] = `
+<div
+  className="sc-htpNat cvEUIa"
+>
+  <div
+    className="sc-bwzfXH cujgKv"
+  >
+    <button
+      className="ant-btn eeee ant-btn-primary"
+      disabled={false}
+      onClick={[Function]}
+      style={
+        Object {
+          "borderBottomRightRadius": 0,
+          "borderTopRightRadius": 0,
+          "display": "inline-block",
+          "padding": "0px 10px",
+        }
+      }
+      type="button"
+    >
+      <span>
+        ADD
+      </span>
+    </button>
+  </div>
+  <div
+    className="ant-dropdown-trigger"
+    disabled={undefined}
+    onBlur={undefined}
+    onClick={[Function]}
+    onContextMenu={undefined}
+    onFocus={undefined}
+    onMouseDown={[Function]}
+    onMouseEnter={undefined}
+    onMouseLeave={undefined}
+    onTouchStart={[Function]}
+  >
+     
+    <div
+      style={
+        Object {
+          "display": "inline-block",
+        }
+      }
+    >
+      <div
+        className="sc-bwzfXH cujgKv"
+      >
+        <button
+          className="ant-btn ant-btn-primary"
+          disabled={false}
+          onClick={[Function]}
+          style={
+            Object {
+              "borderBottomLeftRadius": 0,
+              "borderLeft": "1px solid",
+              "borderTopLeftRadius": 0,
+              "padding": "0px 10px",
+            }
+          }
+          type="button"
+        >
+          <span>
+            ▼
+          </span>
+        </button>
+      </div>
+    </div>
+     
+  </div>
+</div>
+`;

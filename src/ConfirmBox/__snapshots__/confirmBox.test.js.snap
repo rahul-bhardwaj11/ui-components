@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConfirmBox matches default snapshot 1`] = `
+<span
+  onBlur={undefined}
+  onClick={[Function]}
+  onContextMenu={undefined}
+  onFocus={undefined}
+  onMouseDown={[Function]}
+  onMouseEnter={undefined}
+  onMouseLeave={undefined}
+  onTouchStart={[Function]}
+/>
+`;

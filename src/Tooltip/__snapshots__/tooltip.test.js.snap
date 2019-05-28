@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tooltip matches default snapshot 1`] = `
+<div
+  className="sc-bdVaJa gBghzs"
+>
+  <span
+    onBlur={undefined}
+    onClick={undefined}
+    onContextMenu={undefined}
+    onFocus={undefined}
+    onMouseDown={undefined}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    onTouchStart={undefined}
+  >
+    Tooltip will show when mouse enter.
+  </span>
+</div>
+`;

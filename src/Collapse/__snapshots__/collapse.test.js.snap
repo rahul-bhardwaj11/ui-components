@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Collapse matches  default snapshot 1`] = `
+<div
+  className="sc-bdVaJa UsBxu"
+>
+  <div
+    className="ant-collapse"
+    role={null}
+    style={undefined}
+  >
+    <div
+      className="ant-collapse-item ant-collapse-item-active"
+      id={undefined}
+      style={undefined}
+    >
+      <div
+        aria-expanded="true"
+        className="ant-collapse-header"
+        onClick={[Function]}
+        onKeyPress={[Function]}
+        role="button"
+        tabIndex={0}
+      >
+        <i
+          className="arrow"
+        />
+        This is panel header 1
+      </div>
+      <div
+        className="ant-collapse-content ant-collapse-content-active"
+        role={null}
+      >
+        <div
+          className="ant-collapse-content-box"
+        >
+          First Item
+        </div>
+      </div>
+    </div>
+    <div
+      className="ant-collapse-item"
+      id={undefined}
+      style={undefined}
+    >
+      <div
+        aria-expanded="false"
+        className="ant-collapse-header"
+        onClick={[Function]}
+        onKeyPress={[Function]}
+        role="button"
+        tabIndex={0}
+      >
+        <i
+          className="arrow"
+        />
+        This is panel header 2
+      </div>
+    </div>
+    <div
+      className="ant-collapse-item"
+      id={undefined}
+      style={undefined}
+    >
+      <div
+        aria-expanded="false"
+        className="ant-collapse-header"
+        onClick={[Function]}
+        onKeyPress={[Function]}
+        role="button"
+        tabIndex={0}
+      >
+        <i
+          className="arrow"
+        />
+        This is panel header 3
+      </div>
+    </div>
+  </div>
+</div>
+`;

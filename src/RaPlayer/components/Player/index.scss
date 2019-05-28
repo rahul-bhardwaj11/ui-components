@@ -1,0 +1,18 @@
+.play {
+  background: url(../../images/play-large.png) no-repeat 0px 0px transparent;
+  top: 40%;
+  left: 42%;
+  width: 76px;
+  height: 76px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.playerContainer {
+  height: 100%;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}

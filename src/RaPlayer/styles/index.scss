@@ -1,0 +1,123 @@
+@import './colors.scss';
+
+:global {
+  button: {
+    outline: none;
+  }
+  .showScroll {
+    &::-webkit-scrollbar {
+      -webkit-appearance: none;
+      width: 7px;
+    }
+    &::-webkit-scrollbar-thumb {
+      border-radius: 4px;
+      background-color: rgba(0, 0, 0, 0.5);
+      -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+    }
+  }
+}
+
+.posRel {
+  position: relative;
+}
+
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+.visible {
+  visibility: visible;
+}
+.invisible {
+  visibility: hidden;
+}
+
+.textalignC {
+  text-align: center;
+}
+
+.floatL {
+  float: left;
+}
+
+.floatR {
+  float: right;
+}
+
+.marginR7 {
+  margin-right: 7px;
+}
+
+.marginT8 {
+  margin-top: 8px;
+}
+
+.marginR12 {
+  margin-right: 12px;
+}
+.marginT14 {
+  margin-top: 14px;
+}
+
+.marginR15 {
+  margin-right: 15px;
+}
+.marginT9 {
+  margin-top: 9px;
+}
+
+.marginT6 {
+  margin-top: 6px;
+}
+
+.marginT10 {
+  margin-top: 10px;
+}
+
+.marginR20 {
+  margin-right: 20px;
+}
+.paddingT5 {
+  padding-top: 5px;
+}
+
+.clear {
+  clear: both;
+}
+
+.marginT14 {
+  margin-top: 14px;
+}
+
+.lineHeight30 {
+  line-height: 30px;
+}
+
+.lineHeight20 {
+  line-height: 20px;
+}
+
+.lineHeight18 {
+  line-height: 18px;
+}
+.F12 {
+  font-size: 12px;
+}
+
+.orangeColor {
+  color: $orange;
+}
+
+.onBoardingContainer {
+  position: absolute;
+  left: 50%;
+  top: 20px;
+  margin-left: -160px;
+}
+
+.error {
+  color: red;
+  font-size: 10px;
+}

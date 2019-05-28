@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input matches default snapshot 1`] = `
+<div
+  className="sc-bdVaJa gEilJX"
+>
+  <input
+    className="ant-input"
+    disabled={false}
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    placeholder="Placeholder"
+    type="text"
+  />
+</div>
+`;

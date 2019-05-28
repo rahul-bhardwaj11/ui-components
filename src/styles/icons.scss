@@ -1,0 +1,677 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('fonts/icomoon.eot?2x3tiy');
+  src: url('fonts/icomoon.eot?2x3tiy#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?2x3tiy') format('truetype'),
+    url('fonts/icomoon.woff?2x3tiy') format('woff'),
+    url('fonts/icomoon.svg?2x3tiy#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^='icon-'],
+[class*=' icon-'] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:global {
+  .icon-icsDownload:before {
+    content: '\e9d7';
+  }
+  .icon-media:before {
+    content: '\e9d5';
+  }
+  .icon-zip:before {
+    content: '\e9d6';
+  }
+  .icon-bookmarkFill:before {
+    content: '\e9d4';
+  }
+  .icon-bonusPoints:before {
+    content: '\e9d2';
+  }
+  .icon-questionMastered:before {
+    content: '\e9d3';
+  }
+  .icon-copyright:before {
+    content: '\e9cf';
+  }
+  .icon-home:before {
+    content: '\e9d0';
+  }
+  .icon-insights:before {
+    content: '\e9d1';
+  }
+  .icon-Asset:before {
+    content: '\e9cb';
+  }
+  .icon-Home:before {
+    content: '\e9cc';
+  }
+  .icon-Peers:before {
+    content: '\e9cd';
+  }
+  .icon-Reviews:before {
+    content: '\e9ce';
+  }
+  .icon-mic:before {
+    content: '\e9ca';
+  }
+  .icon-missionEmbed:before {
+    content: '\e9c1';
+  }
+  .icon-note:before {
+    content: '\e9c2';
+  }
+  .icon-poll:before {
+    content: '\e9c3';
+  }
+  .icon-question:before {
+    content: '\e9c4';
+  }
+  .icon-scorm:before {
+    content: '\e9c5';
+  }
+  .icon-screenRecording:before {
+    content: '\e9c6';
+  }
+  .icon-textFeedback:before {
+    content: '\e9c7';
+  }
+  .icon-videoRecord:before {
+    content: '\e9c8';
+  }
+  .icon-voiceOver:before {
+    content: '\e9c9';
+  }
+  .icon-cohortSmall:before {
+    content: '\e900';
+  }
+  .icon-groupUser:before {
+    content: '\e901';
+  }
+  .icon-iconShadow:before {
+    content: '\e902';
+  }
+  .icon-invert:before {
+    content: '\e903';
+  }
+  .icon-keywordsSmall:before {
+    content: '\e904';
+  }
+  .icon-lowerLimit:before {
+    content: '\e905';
+  }
+  .icon-lowerLimitBigger:before {
+    content: '\e906';
+  }
+  .icon-multipleConditionsSmall:before {
+    content: '\e907';
+  }
+  .icon-rangeSmall:before {
+    content: '\e908';
+  }
+  .icon-reverse:before {
+    content: '\e909';
+  }
+  .icon-syncAnimate:before {
+    content: '\e90a';
+  }
+  .icon-textConditionSmall:before {
+    content: '\e90b';
+  }
+  .icon-upperLimit:before {
+    content: '\e90c';
+  }
+  .icon-upperLimitSmaller:before {
+    content: '\e90d';
+  }
+  .icon-up_triangle:before {
+    content: '\e90e';
+  }
+  .icon-right_triangle:before {
+    content: '\e90f';
+  }
+  .icon-left_triangle:before {
+    content: '\e910';
+  }
+  .icon-down_triangle:before {
+    content: '\e911';
+  }
+  .icon-delete:before {
+    content: '\e912';
+  }
+  .icon-edit:before {
+    content: '\e913';
+  }
+  .icon-refreshReverse:before {
+    content: '\e914';
+  }
+  .icon-trophy:before {
+    content: '\e915';
+  }
+  .icon-google:before {
+    content: '\e916';
+  }
+  .icon-refresh:before {
+    content: '\e917';
+  }
+  .icon-lock:before {
+    content: '\e918';
+  }
+  .icon-lockClosed:before {
+    content: '\e919';
+  }
+  .icon-relationship-3:before {
+    content: '\e91a';
+  }
+  .icon-robot:before {
+    content: '\e91b';
+  }
+  .icon-starFilled:before {
+    content: '\e91c';
+  }
+  .icon-starOutline:before {
+    content: '\e91d';
+  }
+  .icon-certificate:before {
+    content: '\e91e';
+  }
+  .icon-profIntermediate:before {
+    content: '\e91f';
+  }
+  .icon-profChampion:before {
+    content: '\e920';
+  }
+  .icon-profExpert:before {
+    content: '\e921';
+  }
+  .icon-profAdvanced:before {
+    content: '\e922';
+  }
+  .icon-profBeginner:before {
+    content: '\e923';
+  }
+  .icon-upload:before {
+    content: '\e924';
+  }
+  .icon-tracklearners:before {
+    content: '\e925';
+  }
+  .icon-writeup:before {
+    content: '\e926';
+  }
+  .icon-reviewerSummary:before {
+    content: '\e927';
+  }
+  .icon-success:before {
+    content: '\e928';
+  }
+  .icon-smart_insights:before {
+    content: '\e929';
+  }
+  .icon-key:before {
+    content: '\e92a';
+  }
+  .icon-modules:before {
+    content: '\e92b';
+  }
+  .icon-hand:before {
+    content: '\e92c';
+  }
+  .icon-warning:before {
+    content: '\e92d';
+  }
+  .icon-new-tab:before {
+    content: '\e92e';
+  }
+  .icon-drag:before {
+    content: '\e92f';
+  }
+  .icon-circle:before {
+    content: '\e930';
+  }
+  .icon-doc:before {
+    content: '\e931';
+  }
+  .icon-image:before {
+    content: '\e932';
+  }
+  .icon-embed:before {
+    content: '\e933';
+  }
+  .icon-pdf:before {
+    content: '\e934';
+  }
+  .icon-ppt:before {
+    content: '\e935';
+  }
+  .icon-sound:before {
+    content: '\e936';
+  }
+  .icon-TagCategory:before {
+    content: '\e937';
+  }
+  .icon-video:before {
+    content: '\e938';
+  }
+  .icon-xls:before {
+    content: '\e939';
+  }
+  .icon-zoomout:before {
+    content: '\e93a';
+  }
+  .icon-time:before {
+    content: '\e93b';
+  }
+  .icon-topSubmissions:before {
+    content: '\e93c';
+  }
+  .icon-visiblePF:before {
+    content: '\e93d';
+  }
+  .icon-relationship:before {
+    content: '\e93e';
+  }
+  .icon-profileFieldInputUserDropdown:before {
+    content: '\e93f';
+  }
+  .icon-profileFieldTypeNumber:before {
+    content: '\e940';
+  }
+  .icon-mandatoryPF:before {
+    content: '\e941';
+  }
+  .icon-profileFieldInputDropdown:before {
+    content: '\e942';
+  }
+  .icon-profileFieldDate:before {
+    content: '\e943';
+  }
+  .icon-headerUser:before {
+    content: '\e944';
+  }
+  .icon-lockedProfileField:before {
+    content: '\e945';
+  }
+  .icon-profileFieldText:before {
+    content: '\e946';
+  }
+  .icon-profileFieldTypeText:before {
+    content: '\e947';
+  }
+  .icon-audio:before {
+    content: '\e948';
+  }
+  .icon-notification:before {
+    content: '\e949';
+  }
+  .icon-share:before {
+    content: '\e94a';
+  }
+  .icon-arrowUpDown:before {
+    content: '\e94b';
+  }
+  .icon-bookmark:before {
+    content: '\e94c';
+  }
+  .icon-globe:before {
+    content: '\e94d';
+  }
+  .icon-library:before {
+    content: '\e94e';
+  }
+  .icon-userGroup:before {
+    content: '\e94f';
+  }
+  .icon-listView:before {
+    content: '\e950';
+  }
+  .icon-grid:before {
+    content: '\e951';
+  }
+  .icon-TagLine:before {
+    content: '\e952';
+  }
+  .icon-alert:before {
+    content: '\e953';
+  }
+  .icon-arrowUpRight:before {
+    content: '\e954';
+  }
+  .icon-dislikeFill:before {
+    content: '\e955';
+  }
+  .icon-dislike:before {
+    content: '\e956';
+  }
+  .icon-likeFill:before {
+    content: '\e957';
+  }
+  .icon-like:before {
+    content: '\e958';
+  }
+  .icon-Learners:before {
+    content: '\e959';
+  }
+  .icon-InviteIndividualLearners:before {
+    content: '\e95a';
+  }
+  .icon-InviteLearnerGroups:before {
+    content: '\e95b';
+  }
+  .icon-UploadNewList:before {
+    content: '\e95c';
+  }
+  .icon-addComment:before {
+    content: '\e95d';
+  }
+  .icon-collapseAll:before {
+    content: '\e95e';
+  }
+  .icon-filter:before {
+    content: '\e95f';
+  }
+  .icon-moreHorizontal:before {
+    content: '\e960';
+  }
+  .icon-moreVertical:before {
+    content: '\e961';
+  }
+  .icon-userProfile:before {
+    content: '\e962';
+  }
+  .icon-facebook:before {
+    content: '\e963';
+  }
+  .icon-googlePlus:before {
+    content: '\e964';
+  }
+  .icon-linkedIn:before {
+    content: '\e965';
+  }
+  .icon-twitter:before {
+    content: '\e966';
+  }
+  .icon-close:before {
+    content: '\e967';
+  }
+  .icon-checkboxOff:before {
+    content: '\e968';
+  }
+  .icon-checkboxOn:before {
+    content: '\e969';
+  }
+  .icon-attachment:before {
+    content: '\e96a';
+  }
+  .icon-googleLogo:before {
+    content: '\e96b';
+  }
+  .icon-series_outline:before {
+    content: '\e96c';
+  }
+  .icon-help:before {
+    content: '\e96d';
+  }
+  .icon-right_arrow_wide:before {
+    content: '\e96e';
+  }
+  .icon-duplicate:before {
+    content: '\e96f';
+  }
+  .icon-info:before {
+    content: '\e970';
+  }
+  .icon-todo:before {
+    content: '\e971';
+  }
+  .icon-search:before {
+    content: '\e972';
+  }
+  .icon-more_horizontal:before {
+    content: '\e973';
+  }
+  .icon-menu:before {
+    content: '\e974';
+  }
+  .icon-more_vertical:before {
+    content: '\e975';
+  }
+  .icon-tick:before {
+    content: '\e976';
+  }
+  .icon-cross:before {
+    content: '\e977';
+  }
+  .icon-move:before {
+    content: '\e978';
+  }
+  .icon-Collapse:before {
+    content: '\e979';
+  }
+  .icon-ES_Build:before {
+    content: '\e97a';
+  }
+  .icon-calender:before {
+    content: '\e97b';
+  }
+  .icon-Checklist_graphic:before {
+    content: '\e97c';
+  }
+  .icon-sign_out:before {
+    content: '\e97d';
+  }
+  .icon-Profile:before {
+    content: '\e97e';
+  }
+  .icon-list:before {
+    content: '\e97f';
+  }
+  .icon-underline:before {
+    content: '\e980';
+  }
+  .icon-italics:before {
+    content: '\e981';
+  }
+  .icon-right_arrow:before {
+    content: '\e982';
+  }
+  .icon-bold:before {
+    content: '\e983';
+  }
+  .icon-Learner:before {
+    content: '\e984';
+  }
+  .icon-Download:before {
+    content: '\e985';
+  }
+  .icon-Remind:before {
+    content: '\e986';
+  }
+  .icon-left_arrow:before {
+    content: '\e987';
+  }
+  .icon-Sort_Up:before {
+    content: '\e988';
+  }
+  .icon-barcode:before {
+    content: '\e989';
+  }
+  .icon-Sort_Down:before {
+    content: '\e98a';
+  }
+  .icon-Upload:before {
+    content: '\e98b';
+  }
+  .icon-Analytics:before {
+    content: '\e98c';
+  }
+  .icon-Export:before {
+    content: '\e98d';
+  }
+  .icon-RadioButton_on:before {
+    content: '\e98e';
+  }
+  .icon-RadioButton_off:before {
+    content: '\e98f';
+  }
+  .icon-Comment:before {
+    content: '\e990';
+  }
+  .icon-Checklist:before {
+    content: '\e991';
+  }
+  .icon-Cancel:before {
+    content: '\e992';
+  }
+  .icon-Confirm:before {
+    content: '\e993';
+  }
+  .icon-Plus:before {
+    content: '\e994';
+  }
+  .icon-Up_arrow:before {
+    content: '\e995';
+  }
+  .icon-Down_arrow:before {
+    content: '\e996';
+  }
+  .icon-first_live:before {
+    content: '\e997';
+  }
+  .icon-tag:before {
+    content: '\e998';
+  }
+  .icon-group-icon:before {
+    content: '\e999';
+  }
+  .icon-program:before {
+    content: '\e99a';
+  }
+  .icon-Remove:before {
+    content: '\e99b';
+  }
+  .icon-right_arrow2:before {
+    content: '\e99c';
+  }
+  .icon-add:before {
+    content: '\e99d';
+  }
+  .icon-announcement:before {
+    content: '\e99e';
+  }
+  .icon-attachement:before {
+    content: '\e99f';
+  }
+  .icon-cancel:before {
+    content: '\e9a0';
+  }
+  .icon-delete2:before {
+    content: '\e9a1';
+  }
+  .icon-down_caret:before {
+    content: '\e9a2';
+  }
+  .icon-down_fillcaret:before {
+    content: '\e9a3';
+  }
+  .icon-drag1:before {
+    content: '\e9a4';
+  }
+  .icon-duplicate2:before {
+    content: '\e9a5';
+  }
+  .icon-edit2:before {
+    content: '\e9a6';
+  }
+  .icon-help2:before {
+    content: '\e9a7';
+  }
+  .icon-info2:before {
+    content: '\e9a8';
+  }
+  .icon-left_caret:before {
+    content: '\e9a9';
+  }
+  .icon-left_fillcaret:before {
+    content: '\e9aa';
+  }
+  .icon-more_horizontal2:before {
+    content: '\e9ab';
+  }
+  .icon-more_vertical2:before {
+    content: '\e9ac';
+  }
+  .icon-move2:before {
+    content: '\e9ad';
+  }
+  .icon-right_caret:before {
+    content: '\e9ae';
+  }
+  .icon-right_fillcaret:before {
+    content: '\e9af';
+  }
+  .icon-search2:before {
+    content: '\e9b0';
+  }
+  .icon-settings:before {
+    content: '\e9b1';
+  }
+  .icon-step_arrow:before {
+    content: '\e9b2';
+  }
+  .icon-swap:before {
+    content: '\e9b3';
+  }
+  .icon-tick2:before {
+    content: '\e9b4';
+  }
+  .icon-to_dos:before {
+    content: '\e9b5';
+  }
+  .icon-up_caret:before {
+    content: '\e9b6';
+  }
+  .icon-up_fillcaret:before {
+    content: '\e9b7';
+  }
+  .icon-add2:before {
+    content: '\e9b8';
+  }
+  .icon-info_without_circle:before {
+    content: '\e9b9';
+  }
+  .icon-reviewApproved:before {
+    content: '\e9ba';
+  }
+  .icon-expandAll:before {
+    content: '\e9bb';
+  }
+  .icon-peak:before {
+    content: '\e9bc';
+  }
+  .icon-editSchedule:before {
+    content: '\e9bd';
+  }
+  .icon-Export1:before {
+    content: '\e9be';
+  }
+  .icon-Reviewers:before {
+    content: '\e9bf';
+  }
+  .icon-reorderList:before {
+    content: '\e9c0';
+  }
+}

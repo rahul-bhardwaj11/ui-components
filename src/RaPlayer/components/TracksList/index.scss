@@ -1,0 +1,28 @@
+@import '../../styles/colors.scss';
+
+.trackContainer {
+  border: 1px solid #333;
+  background: #fff;
+  color: #333;
+  font-weight: 600;
+  position: absolute;
+  bottom: 18px;
+  right: 51px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  z-index: 4;
+  .eachTrack {
+    cursor: pointer;
+    list-style: none;
+    padding: 5px;
+    font-size: 12px;
+    &:hover {
+      background-color: $orange;
+    }
+    &.active {
+      background-color: $orange;
+    }
+  }
+}

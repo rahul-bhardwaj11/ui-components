@@ -1,0 +1,14 @@
+.container {
+  position: relative;
+  .commentBarDot {
+    width: 7px;
+    height: 10px;
+    border-radius: 24px;
+    background-color: #0ed5c9;
+    border: solid 1px #ffffff;
+    position: absolute;
+    bottom: 33px;
+    margin-left: -3px;
+    cursor: pointer;
+  }
+}

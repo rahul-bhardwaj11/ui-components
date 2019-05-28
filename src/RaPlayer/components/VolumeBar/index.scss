@@ -1,0 +1,112 @@
+@import '../../styles/index.scss';
+
+.volume {
+  background-image: url(../../images/sound.svg) !important;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  background-color: transparent;
+  margin-top: 2px;
+}
+
+.mute {
+  background-image: url(../../images/mute.svg) !important;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  background-color: transparent;
+  margin-top: 2px;
+}
+
+.volumeBarParent {
+  margin: 0 0 0 20px;
+  position: relative;
+  width: 60px;
+  background: transparent;
+  height: 18px;
+}
+
+.soundContainer {
+  float: left;
+  width: 16px;
+  transition: all 0.4s;
+  overflow: hidden;
+  position: relative;
+  margin-right: 15px;
+  &:hover {
+    width: 89px;
+  }
+  [type='range'] {
+    -webkit-appearance: none;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    border-radius: 2px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+  }
+  [type='range']:focus {
+    outline: 0;
+  }
+  [type='range']::-moz-range-track {
+    -moz-appearance: none;
+    cursor: pointer;
+    height: 4px;
+    transition: all 0.2s ease;
+    width: 100%;
+    background: #fff;
+    border-radius: 5px;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+  }
+  [type='range']::-webkit-slider-thumb {
+    background: #fff;
+    border-radius: 7px;
+    cursor: pointer;
+    height: 14px;
+    width: 14px;
+    -webkit-appearance: none;
+    margin-top: -1px;
+  }
+  [type='range']::-moz-range-thumb {
+    border-radius: 7px;
+    cursor: pointer;
+    height: 14px;
+    width: 14px;
+    -moz-appearance: none;
+  }
+  [type='range']::-ms-track {
+    position: relative;
+    cursor: pointer;
+    height: 4px;
+    transition: all 0.2s ease;
+    width: 100%;
+    background: transparent;
+    border-color: transparent;
+    border-width: 12px 0;
+    color: transparent;
+  }
+  [type='range']::-ms-fill-lower {
+    background: #fff;
+    border-radius: 10px;
+  }
+  [type='range']::-ms-fill-upper {
+    background: #fff;
+    border-radius: 10px;
+  }
+  [type='range']::-ms-thumb {
+    background: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    top: -15px;
+    padding: 0;
+    border: 0;
+    margin: 0;
+  }
+}

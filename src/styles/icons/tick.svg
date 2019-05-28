@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="13px" viewBox="0 0 16 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>tick</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-485.000000, -30.000000)" fill="#000000" fill-rule="nonzero">
+            <path d="M491.050749,40.5349173 L499.428237,30.3248538 C499.742514,29.9418288 500.303012,29.8900783 500.680144,30.2092658 C501.057276,30.5284533 501.108231,31.0977089 500.793954,31.4807339 L491.90513,42.3139881 C491.614319,42.6684142 491.107176,42.7431152 490.729208,42.4871991 L485.395914,38.8761144 C484.987447,38.5995482 484.877071,38.0390453 485.149382,37.624196 C485.421693,37.2093467 485.973573,37.0972461 486.38204,37.3738123 L491.050749,40.5349173 Z" id="tick"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Radio matches default snapshot 1`] = `
+<div
+  className="sc-bdVaJa kNssj"
+>
+  <label
+    className="ant-radio-wrapper"
+    onMouseEnter={undefined}
+    onMouseLeave={undefined}
+    style={undefined}
+  >
+    <span
+      className="ant-radio"
+      style={Object {}}
+    >
+      <input
+        autoFocus={undefined}
+        checked={false}
+        className="ant-radio-input"
+        disabled={undefined}
+        id={undefined}
+        name={undefined}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onClick={undefined}
+        onFocus={[Function]}
+        readOnly={undefined}
+        tabIndex={undefined}
+        type="radio"
+        value={undefined}
+      />
+      <span
+        className="ant-radio-inner"
+      />
+    </span>
+    <span>
+      Radio
+    </span>
+  </label>
+</div>
+`;

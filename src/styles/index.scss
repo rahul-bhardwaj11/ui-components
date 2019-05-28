@@ -1,0 +1,188 @@
+@import 'mixins.scss';
+@import 'icons.scss';
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+:global {
+  * {
+    padding: 0px;
+    margin: 0px;
+    outline: none;
+  }
+
+  body {
+    background: #f5f6f7;
+    font-family: 'Open sans';
+    outline: none;
+  }
+  .F12 {
+    font-size: 12px;
+  }
+  .F13 {
+    font-size: 13px;
+  }
+  .F14 {
+    font-size: 14px;
+  }
+  .F16 {
+    font-size: 16px;
+  }
+  .F18 {
+    font-size: 18px;
+  }
+  .pointer {
+    cursor: pointer;
+  }
+  .visibleN {
+    visibility: hidden;
+  }
+
+  .visible {
+    visibility: visible;
+  }
+  .displayN {
+    display: none;
+  }
+  .displayIM {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .displayIB {
+    display: inline-block;
+  }
+  .pos_rel {
+    position: relative;
+  }
+  .pos_abs {
+    position: absolute;
+  }
+  .floatL {
+    float: left;
+  }
+  .floatR {
+    float: right;
+  }
+  .textAlignC {
+    text-align: center;
+  }
+  .textAlignL {
+    text-align: left;
+  }
+  .textAlignR {
+    text-align: right;
+  }
+
+  .ellipsis {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .link {
+    color: get('colors.INDIGO');
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 13px;
+    margin: 0px 2px;
+    &:hover {
+      color: get('colors.INDIGO');
+    }
+  }
+
+  .boxStyle {
+    border: 1px solid get('colors.ALTO');
+    padding: 12px 15px;
+    background: get('colors.WHITE');
+  }
+  .divider {
+    height: 20px;
+    width: 1px;
+    background: #aaa;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .centerDiv {
+    @include centerDiv;
+    position: absolute;
+  }
+  .center_100_Percent {
+    width: 100%;
+    text-align: center;
+  }
+  .modal_footerWrapper {
+    padding: 20px 0px;
+    border-top: 1px solid get('colors.ALTO');
+    position: fixed;
+    left: 0px;
+    bottom: 0;
+    width: 100%;
+    background: #fff;
+    text-align: center;
+  }
+  .clearfix {
+    @include clearfix;
+  }
+
+  .boxWrapper {
+    background: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    position: relative;
+  }
+  .arrowDropdown {
+    font-size: 0px;
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 7px solid get('colors.OUTER_SPACE');
+    border-radius: 2px;
+    position: initial;
+    cursor: pointer;
+  }
+
+  // func for css  margin
+
+  @for $m from 0 through 50 {
+    @each $key in L, R, T, B {
+      @if $key == L {
+        .margin#{$key}#{$m} {
+          margin-left: $m + px;
+        }
+      } @else if $key == R {
+        .margin#{$key}#{$m} {
+          margin-right: $m + px;
+        }
+      } @else if $key == T {
+        .margin#{$key}#{$m} {
+          margin-top: $m + px;
+        }
+      } @else {
+        .margin#{$key}#{$m} {
+          margin-bottom: $m + px;
+        }
+      }
+    }
+  }
+  // func for css  padding
+  @for $p from 0 through 50 {
+    @each $key in L, R, T, B {
+      @if $key == L {
+        .padding#{$key}#{$p} {
+          padding-left: $p + px;
+        }
+      } @else if $key == R {
+        .padding#{$key}#{$p} {
+          padding-right: $p + px;
+        }
+      } @else if $key == T {
+        .padding#{$key}#{$p} {
+          padding-top: $p + px;
+        }
+      } @else {
+        .padding#{$key}#{$p} {
+          padding-bottom: $p + px;
+        }
+      }
+    }
+  }
+}

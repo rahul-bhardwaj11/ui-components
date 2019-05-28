@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="22px" viewBox="0 0 24 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>archiveSelected</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons" transform="translate(-84.000000, -857.000000)" fill-rule="nonzero">
+            <g id="archiveSelected" transform="translate(84.000000, 857.000000)">
+                <path d="M22,6 L2,6 L2,3 C2,2.44771525 2.44771525,2 3,2 L21,2 C21.5522847,2 22,2.44771525 22,3 L22,6 Z" id="Combined-Shape" fill="#353D50"></path>
+                <path d="M21,8 L3,8 L3,19 C3,19.5522847 3.44771525,20 4,20 L20,20 C20.5522847,20 21,19.5522847 21,19 L21,8 Z M1,8 C0.44771525,8 0,7.55228475 0,7 L0,3 C-2.22044605e-16,1.34314575 1.34314575,0 3,0 L21,0 C22.6568542,0 24,1.34314575 24,3 L24,7 C24,7.55228475 23.5522847,8 23,8 L23,19 C23,20.6568542 21.6568542,22 20,22 L4,22 C2.34314575,22 1,20.6568542 1,19 L1,8 Z M22,6 L22,3 C22,2.44771525 21.5522847,2 21,2 L3,2 C2.44771525,2 2,2.44771525 2,3 L2,6 L22,6 Z M8,10 L16,10 C16.5522847,10 17,10.4477153 17,11 C17,11.5522847 16.5522847,12 16,12 L8,12 C7.44771525,12 7,11.5522847 7,11 C7,10.4477153 7.44771525,10 8,10 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

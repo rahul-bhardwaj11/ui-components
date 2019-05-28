@@ -1,0 +1,95 @@
+@import '../../styles/index.scss';
+
+.videoControls {
+  padding-top: 10px;
+  position: relative;
+  .controlsButtonContainer {
+    margin-top: 16px;
+    padding-left: 2px;
+    position: relative;
+    .playPauseButton {
+      width: 18px;
+      float: left;
+      margin-right: 10px;
+    }
+  }
+}
+
+.showControls {
+  display: inline;
+}
+
+.videoContainer button {
+  border: 0;
+  padding: 0;
+}
+
+.fullScreen {
+  background-image: url(../../images/full-screen.svg) !important;
+  background-color: transparent;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.subtitles {
+  background-image: url(../../images/subtitles.svg) !important;
+  background-color: transparent;
+  width: 20px;
+  height: 18px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.subtitlesUnderline {
+  height: 3px;
+  width: 20px;
+  background-color: #aaa;
+  margin-top: 3px;
+}
+
+.download {
+  background-image: url(../../images/download.svg) !important;
+  background-color: transparent;
+  width: 14px;
+  height: 16px;
+  cursor: pointer;
+  background-color: transparent;
+  display: block;
+}
+
+.play {
+  background-image: url(../../images/play.svg) !important;
+  width: 14px;
+  height: 18px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.hd {
+  background-image: url(../../images/hd.svg) !important;
+  width: 22px;
+  height: 16px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.pause {
+  background-image: url(../../images/pause.png) !important;
+  width: 13px;
+  height: 18px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.controlButton {
+  float: left;
+  margin-left: 15px;
+  button {
+    display: block;
+  }
+  a {
+    display: block;
+  }
+}

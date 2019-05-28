@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="16px" viewBox="0 0 10 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>right_caret</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-143.000000, -30.000000)" fill="#fff" fill-rule="nonzero">
+            <path d="M150.481409,38 L143.341509,31.7525874 C142.925873,31.388906 142.883755,30.7571444 143.247437,30.3415085 C143.611118,29.9258726 144.24288,29.8837552 144.658515,30.2474366 L152.658502,37.2474246 C153.113828,37.6458352 153.113828,38.3541648 152.658502,38.7525754 L144.658515,45.7525634 C144.24288,46.1162448 143.611118,46.0741274 143.247437,45.6584915 C142.883755,45.2428556 142.925873,44.611094 143.341509,44.2474126 L150.481409,38 Z" id="right_caret"></path>
+        </g>
+    </g>
+</svg>
