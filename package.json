@@ -143,7 +143,7 @@
     "react": "16.3.0",
     "react-copy-to-clipboard": "^5.0.1",
     "react-custom-scrollbars": "^4.2.1",
-    "react-dom": "16.3.0",
+    "react-dom": "16.3.3",
     "react-icons": "^2.2.3",
     "react-infinite-scroller": "^1.2.1",
     "react-quill": "^1.3.3",
@@ -158,7 +158,7 @@
   },
   "peerDependencies": {
     "react": "16.3.0",
-    "react-dom": "16.3.0",
+    "react-dom": "16.3.3",
     "styled-components": "^3.3.0"
   }
 }
