@@ -80,7 +80,7 @@
     "is-plain-object": "^2.0.4",
     "jest": "^22.4.4",
     "jest-css-modules": "^1.1.0",
-    "jsdom": "^9.9.1",
+    "jsdom": "^16.5.0",
     "lint-staged": "^7.0.0",
     "node-sass": "^4.9.0",
     "pre-commit": "^1.2.2",
